@@ -11,7 +11,6 @@ class Card(models.Model):
     )
 
     title = models.CharField(max_length=255)
-    description = models.TextField(blank=True)
 
     position = models.PositiveIntegerField(default=0)
 
